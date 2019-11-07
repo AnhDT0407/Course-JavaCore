@@ -75,4 +75,4 @@ Exception in thread "main" java.lang.RuntimeException: javax.mail.Authentication
 535 5.7.8  https://support.google.com/mail/?p=BadCredentials e26sm2342304pgb.48 - gsmtp
 ```
 
-Để bật tính năng này lên, hãy đăng nhập tài khoản Google rồi truy cập vào link sau: [https://myaccount.google.com/lesssecureapps](https://myaccount.google.com/lesssecureapps)
+Để bật tính năng này lên, hãy đăng nhập tài khoản Google rồi truy cập vào link sau: [https://myaccount.google.com/lesssecureapps](https://myaccount.google.com/lesssecureapps) để bật tính năng này lên.
