@@ -66,6 +66,19 @@ public class JavaMailDemo {
 
 ```
 
+Chạy ví dụ với `main`
+```java
+/**
+ * @param args the command line arguments
+ */
+public static void main(String[] args) {
+    String toEmail = "";
+    String subject = "[JavaMail] - Demo sent email";
+    String text = "Thank you for using JavaMail";
+    new JavaMailDemo().sentEmail(toEmail, subject, text);
+}
+```
+
 ### Exception
 
 Nếu gặp `Exception` ở dưới thì là do email của bạn chưa bật tính năng cho xác thực từ bên thứ 3, tính năng này auto tắt do Gmail.
