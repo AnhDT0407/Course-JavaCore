@@ -13,6 +13,8 @@ Bản phát hành mới nhất của JavaMail là 1.6.2.
 
 ### Code example
 
+Ví dụ này là một ví dụ dùng **Gmail** để gửi đi một emai đơn giản.
+
 ```java
 
 import javax.mail.*;
@@ -63,3 +65,14 @@ public class JavaMailDemo {
 }
 
 ```
+
+### Exception
+
+Nếu gặp `Exception` ở dưới thì là do email của bạn chưa bật tính năng cho xác thực từ bên thứ 3, tính năng này auto tắt do Gmail.
+
+```java
+Exception in thread "main" java.lang.RuntimeException: javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e26sm2342304pgb.48 - gsmtp
+```
+
+Để bật tính năng này lên, hãy đăng nhập tài khoản Google rồi truy cập vào link sau: [https://myaccount.google.com/lesssecureapps](https://myaccount.google.com/lesssecureapps)
