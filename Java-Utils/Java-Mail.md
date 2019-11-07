@@ -66,7 +66,7 @@ public class JavaMailDemo {
 
 ```
 
-Chạy ví dụ với `main`
+Chạy ví dụ với hàm `main`
 ```java
 /**
  * @param args the command line arguments
@@ -77,6 +77,13 @@ public static void main(String[] args) {
     String text = "Thank you for using JavaMail";
     new JavaMailDemo().sentEmail(toEmail, subject, text);
 }
+```
+
+Output
+```java
+run:
+Message sent successfully...
+BUILD SUCCESSFUL (total time: 5 seconds)
 ```
 
 ### Exception
