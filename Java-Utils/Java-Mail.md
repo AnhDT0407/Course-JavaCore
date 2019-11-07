@@ -5,10 +5,8 @@ API JavaMail cung cấp một giao thức độc lập để xây dựng các �
 #### Latest News [August 29, 2018 - JavaMail 1.6.2 Final Release](https://github.com/javaee/javamail/releases)
 
 ### Download JavaMail Release
-The latest release of JavaMail is 1.6.2.
-
-The following table provides easy access to the latest release. Most people will only need the main JavaMail reference implementation in the javax.mail.jar file.
+Bản phát hành mới nhất của JavaMail is 1.6.2.
 
 |Item|Description|
 |---|---|
-|cc||The JavaMail reference implementation, including the SMTP, IMAP, and POP3 protocol providers
+|[javax.mail.jar](https://github.com/javaee/javamail/releases/download/JAVAMAIL-1_6_2/javax.mail.jar)|The JavaMail reference implementation, including the SMTP, IMAP, and POP3 protocol providers|
