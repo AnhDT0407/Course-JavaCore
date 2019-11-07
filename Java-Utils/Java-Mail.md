@@ -4,14 +4,14 @@ API JavaMail cung cấp một giao thức độc lập để xây dựng các �
 
 #### Latest News [August 29, 2018 - JavaMail 1.6.2 Final Release](https://github.com/javaee/javamail/releases)
 
-### Download JavaMail Release
+### 1. Download JavaMail Release
 Bản phát hành mới nhất của JavaMail là 1.6.2.
 
 |Item|Description|
 |---|---|
 |[javax.mail.jar](https://github.com/javaee/javamail/releases/download/JAVAMAIL-1_6_2/javax.mail.jar)|The JavaMail reference implementation, including the SMTP, IMAP, and POP3 protocol providers|
 
-### Code example
+### 2. Code example
 
 Ví dụ này là một ví dụ dùng **Gmail** để gửi đi một emai đơn giản.
 
@@ -86,7 +86,7 @@ Message sent successfully...
 BUILD SUCCESSFUL (total time: 5 seconds)
 ```
 
-### Exception
+### 3. Exception
 
 Nếu gặp `Exception` ở dưới thì là do email của bạn chưa bật tính năng cho xác thực từ bên thứ 3, tính năng này auto tắt do Gmail.
 
