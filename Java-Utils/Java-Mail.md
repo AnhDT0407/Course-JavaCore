@@ -26,8 +26,8 @@ import java.util.Properties;
  */
 public class JavaMailDemo {
     
-    private final String USERNAME_MAIL = " ";
-    private final String PASSWORD_MAIL = "******";
+    private final String MAIL = " ";
+    private final String PASSWORD = "******";
     
     public void sentEmail(String toEmail, String subject, String text) {
         
@@ -41,14 +41,14 @@ public class JavaMailDemo {
         Session session = Session.getInstance(props, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(USERNAME_MAIL, PASSWORD_MAIL);
+                return new PasswordAuthentication(MAIL, PASSWORD);
             }
         });
 
         // Mail info
         try {
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress(USERNAME_MAIL));
+            message.setFrom(new InternetAddress(MAIL));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(toEmail));
             message.setSubject(subject);
             message.setText(text);
