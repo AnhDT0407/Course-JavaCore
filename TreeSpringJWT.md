@@ -20,7 +20,7 @@ springboot-jwt-starter/
  │   │   │   │   │   ├──RestAuthenticationEntryPoint.java       * handle auth exceptions, like invalid token etc.
  │   │   │   │   │   ├──TokenAuthenticationFilter.java          * the JWT token filter, configured in WebSecurityConfig
  │   │   │   │   │   └──TokenBasedAuthentication.java           * this is our custom Authentication class and it extends AbstractAuthenticationToken.
- │   │   │   │   └──TokenHelper.java                             * token helper class
+ │   │   │   │   └──TokenHelper.java                            * token helper class
  │   │   │   ├──service
  │   │   │   │   ├──impl
  │   │   │   │   │   ├──CustomUserDetailsService.java           * custom UserDatilsService implementataion, tells formLogin() where to check username/password
