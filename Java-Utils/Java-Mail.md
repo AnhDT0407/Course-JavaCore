@@ -83,14 +83,37 @@ run:
 Message sent successfully...
 BUILD SUCCESSFUL (total time: 5 seconds)
 ```
+<br />
 
-### 3. Exception
+### 3. Lấy mật khẩu gửi email
 
-Nếu gặp `Exception` ở dưới thì là do email của bạn chưa bật tính năng cho xác thực từ bên thứ 3, tính năng này auto tắt do Gmail.
+#### 3.1. Truy cập link [https://myaccount.google.com/security](https://myaccount.google.com/security)
+#### 3.2. Bật xác thực 2 bước (2-Step Verification) và click vào `2-Step Verification`
 
-```java
-Exception in thread "main" java.lang.RuntimeException: javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. 
-Learn more at 535 5.7.8 https://support.google.com/mail/?p=BadCredentials e26sm2342304pgb.48 - gsmtp
-```
+<br />
 
-Để bật tính năng này lên, hãy đăng nhập tài khoản Google rồi truy cập vào link sau: [https://myaccount.google.com/lesssecureapps](https://myaccount.google.com/lesssecureapps) để bật tính năng này lên.
+<p align="center">
+  <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-22_230658.png">
+</p>
+
+<br />
+
+#### 3.3. Kéo xuống cuối trang và lựa chọn cài đặt `App passwords`
+
+<br />
+
+<p align="center">
+  <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-22_231354.png">
+</p>
+
+<br />
+
+#### 3.4. Đặt tên `App name` và sau đó bấm `Create`
+
+<br />
+
+<p align="center">
+  <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-23_021153.png">
+</p>
+
+<br />
