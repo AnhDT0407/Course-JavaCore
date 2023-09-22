@@ -4,7 +4,7 @@ API JavaMail cung cấp một giao thức độc lập để xây dựng các �
 
 <br />
 
-### 1. Download JavaMail Release
+### 1. Download maven
 
 |Maven|
 |---|
