@@ -6,14 +6,14 @@ API JavaMail cung cấp một giao thức độc lập để xây dựng các �
 
 |Maven|
 |---|
-|[https://mvnrepository.com/artifact/com.sun.mail/jakarta.mail/2.0.1](https://github.com/javaee/javamail/releases/download/JAVAMAIL-1_6_2/javax.mail.jar)|
+|[https://mvnrepository.com/artifact/com.sun.mail/jakarta.mail/2.0.1](https://mvnrepository.com/artifact/com.sun.mail/jakarta.mail/2.0.1)|
 
 ### 2. Code example
 
 Ví dụ này là một ví dụ dùng **Gmail** để gửi đi một emai đơn giản.
 
 ```java
-
+        
 import jakarta.mail.*;
 import jakarta.mail.internet.InternetAddress;
 import jakarta.mail.internet.MimeMessage;
@@ -25,8 +25,8 @@ import java.util.Properties;
  */
 public class JavaMailDemo {
     
-    private final String MAIL = " ";
-    private final String PASSWORD = "******";
+    private final String MAIL = "";      // email from
+    private final String PASSWORD = "";  // password for authentication
     
     public void sentEmail(String toEmail, String subject, String text) {
         
