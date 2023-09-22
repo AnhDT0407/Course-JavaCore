@@ -112,7 +112,7 @@ BUILD SUCCESSFUL (total time: 5 seconds)
 
 #### 3.4. Bạn sẽ nhận được mật khẩu cho ứng dụng như sau
 
-<p align="center">
+<p align="center" style="width: 100%">
   <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-23_024600.png">
 </p>
 
