@@ -92,6 +92,7 @@ BUILD SUCCESSFUL (total time: 5 seconds)
 ### 3. Lấy mật khẩu gửi email
 
 3.1. Truy cập link [https://myaccount.google.com/security](https://myaccount.google.com/security)  
+
 3.2. Bật xác thực 2 bước (2-Step Verification) và click vào `2-Step Verification`
 
 <p align="center">
