@@ -83,6 +83,7 @@ run:
 Message sent successfully...
 BUILD SUCCESSFUL (total time: 5 seconds)
 ```
+<br />
 
 ### 3. Lấy mật khẩu gửi email
 
@@ -95,3 +96,5 @@ BUILD SUCCESSFUL (total time: 5 seconds)
 </p>
 
 <br />
+
+#### 3.2. Bật xác thực 2 bước (2-Step Verification) và click vào `2-Step Verification`
