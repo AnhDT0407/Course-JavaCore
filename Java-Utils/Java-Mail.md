@@ -2,11 +2,15 @@
 
 API JavaMail cung cấp một giao thức độc lập để xây dựng các ứng dụng làm việc với email. API JavaMail có sẵn dưới dạng gói tùy chọn để sử dụng với nền tảng Java SE và nền tảng Java EE .
 
+<br />
+
 ### 1. Download JavaMail Release
 
 |Maven|
 |---|
 |[https://mvnrepository.com/artifact/com.sun.mail/jakarta.mail/2.0.1](https://mvnrepository.com/artifact/com.sun.mail/jakarta.mail/2.0.1)|
+
+<br />
 
 ### 2. Code example
 
@@ -26,7 +30,7 @@ import java.util.Properties;
 public class JavaMailDemo {
     
     private final String MAIL = "";      // email from
-    private final String PASSWORD = "";  // password for authentication
+    private final String PASSWORD = "";  // password for authentication (refer section 3)
     
     public void sentEmail(String toEmail, String subject, String text) {
         
