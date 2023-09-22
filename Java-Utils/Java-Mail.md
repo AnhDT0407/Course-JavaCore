@@ -90,8 +90,6 @@ BUILD SUCCESSFUL (total time: 5 seconds)
 #### 3.1. Truy cập link [https://myaccount.google.com/security](https://myaccount.google.com/security)
 #### 3.2. Bật xác thực 2 bước (2-Step Verification) và click vào `2-Step Verification`
 
-<br />
-
 <p align="center">
   <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-22_230658.png">
 </p>
