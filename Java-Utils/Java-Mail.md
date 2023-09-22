@@ -91,26 +91,26 @@ BUILD SUCCESSFUL (total time: 5 seconds)
 
 ### 3. Lấy mật khẩu gửi email
 
-#### 3.1. Truy cập link [https://myaccount.google.com/security](https://myaccount.google.com/security)
-#### 3.2. Bật xác thực 2 bước (2-Step Verification) và click vào `2-Step Verification`
+3.1. Truy cập link [https://myaccount.google.com/security](https://myaccount.google.com/security)
+3.2. Bật xác thực 2 bước (2-Step Verification) và click vào `2-Step Verification`
 
 <p align="center">
   <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-22_230658.png">
 </p>
 
-#### 3.3. Kéo xuống cuối trang và lựa chọn cài đặt `App passwords`
+3.3. Kéo xuống cuối trang và lựa chọn cài đặt `App passwords`
 
 <p align="center">
   <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-22_231354.png">
 </p>
 
-#### 3.4. Đặt tên `App name` và sau đó bấm `Create`
+3.4. Đặt tên `App name` và sau đó bấm `Create`
 
 <p align="center">
   <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-23_024428.png">
 </p>
 
-#### 3.4. Bạn sẽ nhận được mật khẩu cho ứng dụng như sau
+3.5. Bạn sẽ nhận được mật khẩu cho ứng dụng như sau
 
 <p align="center">
   <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-23_024600.png" style="width: 100%">
