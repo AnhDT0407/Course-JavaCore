@@ -96,23 +96,17 @@ BUILD SUCCESSFUL (total time: 5 seconds)
 
 #### 3.3. Kéo xuống cuối trang và lựa chọn cài đặt `App passwords`
 
-<br />
-
 <p align="center">
   <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-22_231354.png">
 </p>
 
 #### 3.4. Đặt tên `App name` và sau đó bấm `Create`
 
-<br />
-
 <p align="center">
   <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-23_024428.png">
 </p>
 
 #### 3.4. Bạn sẽ nhận được mật khẩu cho ứng dụng như sau
-
-<br />
 
 <p align="center">
   <img src="https://github.com/AnhDT0407/Course-JavaCore/blob/master/Java-Utils/IMG/2023-09-23_024600.png">
